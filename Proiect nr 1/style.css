@@ -1,0 +1,67 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fbfbfb;
+    color: #333
+}
+nav {
+    background-color: transparent;
+    color: #01796f;
+    padding: 5%;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+    letter-spacing: 2.5px;
+    text-transform: lowercase;
+    font-size: 150%;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+header {
+    background-image: url(poza\ festiva.jpg);
+    text-align: center;
+    height: 70vh;
+}
+main {
+    background: whitesmoke;
+    border-style: groove;
+    margin-left: 2px;
+    text-align: center;
+}
+#container {
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+    flex-wrap:wrap;
+    align-content: center;
+  
+}
+.rand1,.rand2,.rand3 {
+    justify-content: space-around;
+    padding: 20px;
+}
+footer {
+    background: beige;
+    text-align: center;
+    font-size: 100%;
+    border-style: solid; 
+    margin-left: 2x;
+}
+.row {
+    overflow: hidden;
+}
+.column {
+    width: 33.3%;
+    background: bisque;
+    float: left;
+}
